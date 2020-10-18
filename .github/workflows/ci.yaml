@@ -3,7 +3,7 @@ name: Typescript CI
 on: [push]
 
 jobs:
-  build:
+  ci:
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -17,4 +17,5 @@ jobs:
     - name: Install dependencies
       run: yarn install --frozen-lockfile
     - run: yarn build
+    - run: yarn prettier
     - run: yarn test

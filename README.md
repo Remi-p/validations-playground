@@ -9,6 +9,10 @@
 
 Use the command `yarn test`. `yarn test --watch` let jest relaunch itself on files change.
 
+## Prettify your code
+
+Use the command `yarn prettier:write`.
+
 ## Inspirations
 
 https://github.com/Leadformance-Randori-Tuesday/randori-2
