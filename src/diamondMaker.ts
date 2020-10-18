@@ -1,15 +1,21 @@
 export const diamondMaker = (size: number) => {
-    const ceiledMiddle = Math.floor(size/2);
-    let diamond = '';
+    const ceiledMiddle = Math.floor(size / 2)
+    let diamond = ''
     for (let i = 0; i < ceiledMiddle; i++) {
         diamond += lineMaker(ceiledMiddle - i, i * 2)
     }
     for (let i = ceiledMiddle; i >= 0; i--) {
         diamond += lineMaker(ceiledMiddle - i, i * 2)
     }
-    return diamond;
+    return diamond
 }
 
 function lineMaker(blank: number, diamondCharacter: number) {
-    return ' '.repeat(blank) + '#' + '#'.repeat(diamondCharacter) + ' '.repeat(blank) + '\n';
+    return (
+        ' '.repeat(blank) +
+        '#' +
+        '#'.repeat(diamondCharacter) +
+        ' '.repeat(blank) +
+        '\n'
+    )
 }
