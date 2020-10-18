@@ -5,6 +5,10 @@
 1. Install `yarn`
 2. Inside this repository, launch the following command: `yarn`.
 
+## Commit convention
+
+The [conventional commit format](https://conventionalcommits.org/) is used. This is ensured by [commitlint](https://github.com/conventional-changelog/commitlint), in the CI & at commit creation.
+
 ## Execute tests
 
 Use the command `yarn test`. `yarn test --watch` let jest relaunch itself on files change.
