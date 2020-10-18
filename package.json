@@ -6,6 +6,8 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix",
     "prettier": "prettier --check src/",
     "prettier:write": "prettier --write src/",
     "test": "jest --forceExit --coverage --verbose --detectOpenHandles",
@@ -14,13 +16,16 @@
   "prettier": {
     "trailingComma": "es5",
     "tabWidth": 4,
-    "semi": false,
+    "semi": true,
     "singleQuote": true
   },
   "dependencies": {
     "typescript": "^4.0.3"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.4.1",
+    "@typescript-eslint/parser": "^4.4.1",
+    "eslint": "^7.11.0",
     "jest": "^26.5.3",
     "prettier": "^2.1.2",
     "ts-jest": "^26.4.1"
