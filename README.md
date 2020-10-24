@@ -1,6 +1,6 @@
 # Validations Playground
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=validations-playground&metric=alert_status)](https://sonarcloud.io/dashboard?id=validations-playground)
+![Building, linting, testing](https://github.com/Remi-p/validations-playground/workflows/Building,%20linting,%20testing/badge.svg) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=validations-playground&metric=alert_status)](https://sonarcloud.io/dashboard?id=validations-playground)
 
 ## Initialization
 
