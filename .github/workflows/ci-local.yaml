@@ -1,4 +1,4 @@
-name: Typescript CI
+name: Building, linting, testing
 
 on: [push]
 
