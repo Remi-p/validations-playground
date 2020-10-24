@@ -28,3 +28,5 @@ Use the command `yarn prettier:write`.
 * https://docs.github.com/en/free-pro-team@latest/actions/guides/caching-dependencies-to-speed-up-workflows
 * https://classic.yarnpkg.com/en/docs/cli/install/
 * https://www.npmjs.com/package/eslint
+* https://github.com/cycle-game/Cycle
+* https://sonarcloud.io
