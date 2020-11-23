@@ -13,7 +13,13 @@ The [conventional commit format](https://conventionalcommits.org/) is used. This
 
 ## Execute tests
 
+### Unit tests
+
 Use the command `yarn test`. `yarn test --watch` let jest relaunch itself on files change.
+
+### Integration tests
+
+Use the command: `yarn test:integration`.
 
 ## Linting
 
