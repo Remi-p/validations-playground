@@ -9,6 +9,7 @@
     "commitlint": "commitlint --from=master",
     "lint": "eslint src/",
     "lint:fix": "eslint src/ --fix",
+    "postinstall": "husky install",
     "prettier": "prettier --check src/",
     "prettier:write": "prettier --write src/",
     "start": "ts-node src/server.ts",
